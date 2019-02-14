@@ -1,9 +1,18 @@
 const numberToReversedDigits = (number) => {
-  let array = array.of(number);
+  return number.toString().split("").map(Number).reverse();
 
-  return array;
-};
+
   
+
+
+  //let array = array.of(number);
+
+
+
+  //return array;
+};
+// number to string then split it then number map then reverse
+
   
     //let output = [];
   //let sNumber = numberToReversedDigits.toString();
