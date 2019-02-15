@@ -8,4 +8,6 @@ const joinNames = (namesObj) => {
 
 
 module.exports = joinNames;
+
+
 // 'Bart, Lisa & Maggie'.
