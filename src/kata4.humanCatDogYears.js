@@ -4,7 +4,7 @@ const humanCatDogYears = (number) => {
   let catYears1 = number > 1 ? 15 : number  
   let catYears2 = number > 2 ? 9 : number
     
-const catYears3 = number > 3 
+let catYears3 = number > 3 
   if (number > 3){
     catYears3 = (number - 2) * 4;
   
@@ -12,7 +12,7 @@ const catYears3 = number > 3
   let dogYears1 = number > 1 ? 15 : number
   let dogYears2 = number > 2 ? 9 : number
     
-const dogYears3 = number
+let dogYears3 = number
   if (number > 3){
     dogYears3 = (number - 2) * 5;
   
@@ -21,7 +21,7 @@ const dogYears3 = number
 
 return [number , catYearTotal , dogYearTotal]
 
-}}}};
+}};
 };
   module.exports = humanCatDogYears; 
 
