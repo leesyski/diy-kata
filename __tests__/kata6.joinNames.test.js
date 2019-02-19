@@ -1,7 +1,7 @@
 const { joinNames } = require('../src');
 
 describe('joinNames', () => {
-  xit('returns string of names, seperated by commas and an ampersand', () => {
+  it('returns string of names, seperated by commas and an ampersand', () => {
     const person1 = {
       name: 'Bart',
       age: 45
