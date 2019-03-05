@@ -15,7 +15,7 @@ describe('joinNames', () => {
       age: 67
     }
 
-    expect(joinNames([person1, person2, person3])).toBe('Bart, Lisa & Maggie.')
+    expect(joinNames([person1, person2, person3])).toBe('Bart, Lisa & Maggie')
 
   });
 });
